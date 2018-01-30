@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "ut_frame/routers"
+	_ "github.com/Frank-gh/code_qa/routers"
 
 	"github.com/astaxie/beego"
 )

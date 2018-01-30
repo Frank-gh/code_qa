@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"ut_frame/controllers"
+	"github.com/Frank-gh/code_qa/controllers"
 
 	"github.com/astaxie/beego"
 )

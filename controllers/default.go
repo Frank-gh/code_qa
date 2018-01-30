@@ -7,7 +7,8 @@ import (
 	"os"
 	"strconv"
 	"strings"
-	"ut_frame/models"
+
+	"github.com/Frank-gh/code_qa/models"
 )
 
 type MainController struct {
