@@ -1,0 +1,24 @@
+<div>
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>NAME</td>
+                <td>FAILURETYPE</td>
+                <td>MESSAGE</td>
+                <td>FILE</td>
+                <td>LINE</td>
+            </tr>
+        </thead>
+        {{range $k, $v := .list}}
+        <tr>
+            <td>{{$v.Id}}</td>
+            <td>{{$v.Name}}</td>
+            <td>{{$v.Failuretype}}</td>
+            <td>{{$v.Message}}</td>
+            <td>{{$v.File}}</td>
+            <td>{{$v.Line}}</td>
+        </tr>
+        {{end}}
+    </table>
+</div>

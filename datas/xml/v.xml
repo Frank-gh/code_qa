@@ -1,0 +1,235 @@
+<?xml version="1.0"?>
+
+<valgrindoutput>
+
+<protocolversion>4</protocolversion>
+<protocoltool>memcheck</protocoltool>
+
+<preamble>
+  <line>Memcheck, a memory error detector</line>
+  <line>Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.</line>
+  <line>Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info</line>
+  <line>Command: ./front_bus</line>
+</preamble>
+
+<pid>21114</pid>
+<ppid>15082</ppid>
+<tool>memcheck</tool>
+
+<args>
+  <vargv>
+    <exe>/usr/bin/valgrind</exe>
+    <arg>--tool=memcheck</arg>
+    <arg>--leak-check=full</arg>
+    <arg>--xml=yes</arg>
+    <arg>--xml-file=a.xml</arg>
+  </vargv>
+  <argv>
+    <exe>./front_bus</exe>
+  </argv>
+</args>
+
+<status>
+  <state>RUNNING</state>
+  <time>00:00:00:00.145 </time>
+</status>
+
+<error>
+  <unique>0x0</unique>
+  <tid>1</tid>
+  <kind>MismatchedFree</kind>
+  <what>Mismatched free() / delete / delete []</what>
+  <stack>
+    <frame>
+      <ip>0x4C2A18D</ip>
+      <obj>/usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator delete(void*)</fn>
+      <dir>/builddir/build/BUILD/valgrind-3.11.0/coregrind/m_replacemalloc</dir>
+      <file>vg_replace_malloc.c</file>
+      <line>576</line>
+    </frame>
+    <frame>
+      <ip>0x405093</ip>
+      <obj>/home/frank/projects/trade_src/switch/f_switch/front_bus/bin/front_bus</obj>
+      <fn>main</fn>
+      <dir>/home/frank/projects/trade_src/switch/f_switch/src</dir>
+      <file>SwitchServer.cpp</file>
+      <line>394</line>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x66710b0 is 0 bytes inside a block of size 21 alloc'd</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x4C298A8</ip>
+      <obj>/usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator new[](unsigned long)</fn>
+      <dir>/builddir/build/BUILD/valgrind-3.11.0/coregrind/m_replacemalloc</dir>
+      <file>vg_replace_malloc.c</file>
+      <line>423</line>
+    </frame>
+    <frame>
+      <ip>0x434485</ip>
+      <obj>/home/frank/projects/trade_src/switch/f_switch/front_bus/bin/front_bus</obj>
+      <fn>CServiceName::CServiceName(char*)</fn>
+      <dir>/home/frank/projects/trade_src/switch/p_frame/src</dir>
+      <file>ServiceName.cpp</file>
+      <line>19</line>
+    </frame>
+    <frame>
+      <ip>0x403A50</ip>
+      <obj>/home/frank/projects/trade_src/switch/f_switch/front_bus/bin/front_bus</obj>
+      <fn>main</fn>
+      <dir>/home/frank/projects/trade_src/switch/f_switch/src</dir>
+      <file>SwitchServer.cpp</file>
+      <line>385</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x1</unique>
+  <tid>1</tid>
+  <kind>MismatchedFree</kind>
+  <what>Mismatched free() / delete / delete []</what>
+  <stack>
+    <frame>
+      <ip>0x4C2A18D</ip>
+      <obj>/usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator delete(void*)</fn>
+      <dir>/builddir/build/BUILD/valgrind-3.11.0/coregrind/m_replacemalloc</dir>
+      <file>vg_replace_malloc.c</file>
+      <line>576</line>
+    </frame>
+    <frame>
+      <ip>0x5E9BA48</ip>
+      <obj>/usr/lib64/libc-2.17.so</obj>
+      <fn>__run_exit_handlers</fn>
+    </frame>
+    <frame>
+      <ip>0x5E9BA94</ip>
+      <obj>/usr/lib64/libc-2.17.so</obj>
+      <fn>exit</fn>
+    </frame>
+    <frame>
+      <ip>0x5E84B3B</ip>
+      <obj>/usr/lib64/libc-2.17.so</obj>
+      <fn>(below main)</fn>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x6656090 is 0 bytes inside a block of size 32,768 alloc'd</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x4C298A8</ip>
+      <obj>/usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator new[](unsigned long)</fn>
+      <dir>/builddir/build/BUILD/valgrind-3.11.0/coregrind/m_replacemalloc</dir>
+      <file>vg_replace_malloc.c</file>
+      <line>423</line>
+    </frame>
+    <frame>
+      <ip>0x42B46A</ip>
+      <obj>/home/frank/projects/trade_src/switch/f_switch/front_bus/bin/front_bus</obj>
+      <fn>EnsureSize</fn>
+      <dir>/home/frank/projects/trade_src/switch/p_FTSP/src/../../p_frame/include</dir>
+      <file>BaseVector.h</file>
+      <line>101</line>
+    </frame>
+    <frame>
+      <ip>0x42B46A</ip>
+      <obj>/home/frank/projects/trade_src/switch/f_switch/front_bus/bin/front_bus</obj>
+      <fn>PushBack</fn>
+      <dir>/home/frank/projects/trade_src/switch/p_FTSP/src/../../p_frame/include</dir>
+      <file>BaseVector.h</file>
+      <line>30</line>
+    </frame>
+    <frame>
+      <ip>0x42B46A</ip>
+      <obj>/home/frank/projects/trade_src/switch/f_switch/front_bus/bin/front_bus</obj>
+      <fn>CQueue</fn>
+      <dir>/home/frank/projects/trade_src/switch/p_FTSP/src/../../p_frame/include</dir>
+      <file>Queue.h</file>
+      <line>101</line>
+    </frame>
+    <frame>
+      <ip>0x42B46A</ip>
+      <obj>/home/frank/projects/trade_src/switch/f_switch/front_bus/bin/front_bus</obj>
+      <fn>CHashMap</fn>
+      <dir>/home/frank/projects/trade_src/switch/p_FTSP/src/../../p_frame/include</dir>
+      <file>HashMap.h</file>
+      <line>116</line>
+    </frame>
+    <frame>
+      <ip>0x42B46A</ip>
+      <obj>/home/frank/projects/trade_src/switch/f_switch/front_bus/bin/front_bus</obj>
+      <fn>CFTSPPackageMap</fn>
+      <dir>/home/frank/projects/trade_src/switch/p_FTSP/src/../include</dir>
+      <file>FTSPPackage.h</file>
+      <line>218</line>
+    </frame>
+    <frame>
+      <ip>0x42B46A</ip>
+      <obj>/home/frank/projects/trade_src/switch/f_switch/front_bus/bin/front_bus</obj>
+      <fn>GetMap()</fn>
+      <dir>/home/frank/projects/trade_src/switch/p_FTSP/src</dir>
+      <file>FTSPPackage.cpp</file>
+      <line>814</line>
+    </frame>
+    <frame>
+      <ip>0x42E983</ip>
+      <obj>/home/frank/projects/trade_src/switch/f_switch/front_bus/bin/front_bus</obj>
+      <fn>CRegFTSPDesc::CRegFTSPDesc(int, TFTSPPackageDesc*)</fn>
+      <dir>/home/frank/projects/trade_src/switch/p_FTSP/src</dir>
+      <file>RegFTSPDesc.cpp</file>
+      <line>7</line>
+    </frame>
+    <frame>
+      <ip>0x4055B7</ip>
+      <obj>/home/frank/projects/trade_src/switch/f_switch/front_bus/bin/front_bus</obj>
+      <fn>__static_initialization_and_destruction_0</fn>
+      <dir>/home/frank/projects/trade_src/switch/p_FTSP/src</dir>
+      <file>FTSPPackageDesc.cpp</file>
+      <line>71</line>
+    </frame>
+    <frame>
+      <ip>0x4055B7</ip>
+      <obj>/home/frank/projects/trade_src/switch/f_switch/front_bus/bin/front_bus</obj>
+      <fn>_GLOBAL__sub_I__ZN21CFTSPSysErrorNtfField10m_DescribeE</fn>
+      <dir>/home/frank/projects/trade_src/switch/p_FTSP/src</dir>
+      <file>FTSPPackageDesc.cpp</file>
+      <line>71</line>
+    </frame>
+    <frame>
+      <ip>0x43A56C</ip>
+      <obj>/home/frank/projects/trade_src/switch/f_switch/front_bus/bin/front_bus</obj>
+      <fn>__libc_csu_init</fn>
+    </frame>
+    <frame>
+      <ip>0x5E84AC4</ip>
+      <obj>/usr/lib64/libc-2.17.so</obj>
+      <fn>(below main)</fn>
+    </frame>
+  </stack>
+</error>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:00.667 </time>
+</status>
+
+<errorcounts>
+  <pair>
+    <count>1</count>
+    <unique>0x1</unique>
+  </pair>
+  <pair>
+    <count>1</count>
+    <unique>0x0</unique>
+  </pair>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+

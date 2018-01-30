@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding='ISO-8859-1' standalone='yes' ?>
+<TestRun>
+  <FailedTests>
+    <FailedTest id="1">
+      <Name>basic_check_ut::handle_input</Name>
+      <FailureType>Assertion</FailureType>
+      <Location>
+        <File>/home/frank/project/7th_dev/trade_biz_sys/sub_sys_trade/pre_rc/ut/mth_pre_rc_basic_check/basic_check_ut.cpp</File>
+        <Line>40</Line>
+      </Location>
+      <Message>assertion failed
+- Expression: strcmp(&quot;123123&quot;, &quot;10:12:01&quot;) == 0
+</Message>
+    </FailedTest>
+  </FailedTests>
+  <SuccessfulTests>
+    <Test id="2">
+      <Name>fund_check_ut::handle_input</Name>
+    </Test>
+    <Test id="3">
+      <Name>state_manage_ut::chg_time</Name>
+    </Test>
+    <Test id="4">
+      <Name>state_manage_ut::test</Name>
+    </Test>
+  </SuccessfulTests>
+  <Statistics>
+    <Tests>4</Tests>
+    <FailuresTotal>1</FailuresTotal>
+    <Errors>0</Errors>
+    <Failures>1</Failures>
+  </Statistics>
+</TestRun>

@@ -1,0 +1,28 @@
+<div>
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>FILE</td>
+                <td>LINE</td>
+                <td>TYPE</td>
+                <td>SEVERITY</td>
+                <td>MESSAGE</td>
+            </tr>
+        </thead>
+        {{range $k, $v := .list}} {{if eq $v.Severity "error"}}
+        <tr class="danger">
+            {{else if eq $v.Severity "warning"}}
+            <tr class="warning">
+                {{else}}
+                <tr> {{end}}
+                    <td>{{$v.Id}}</td>
+                    <td>{{$v.File}}</td>
+                    <td>{{$v.Line}}</td>
+                    <td>{{$v.Type}}</td>
+                    <td>{{$v.Severity}}</td>
+                    <td>{{$v.Msg}}</td>
+                </tr>
+                {{end}}
+    </table>
+</div>

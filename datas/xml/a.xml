@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results>
+    <error file="src/SwitchContext.h" line="66" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/TimeSynTimer.h" line="12" id="noExplicitConstructor" severity="style" msg="Class &apos;CTimeSynTimer&apos; has a constructor with 1 argument that is not explicit."/>
+    <error file="src/ArbTimer.h" line="13" id="noExplicitConstructor" severity="style" msg="Class &apos;CArbTimer&apos; has a constructor with 1 argument that is not explicit."/>
+    <error file="src/TState.h" line="48" id="noExplicitConstructor" severity="style" msg="Class &apos;CState&apos; has a constructor with 1 argument that is not explicit."/>
+    <error file="src/StateControl.h" line="36" id="noExplicitConstructor" severity="style" msg="Class &apos;CStateControl&apos; has a constructor with 1 argument that is not explicit."/>
+    <error file="src/Snapshot.h" line="13" id="noExplicitConstructor" severity="style" msg="Class &apos;CSnapshot &lt; _TKey , _TDevWorkDate &gt;&apos; has a constructor with 1 argument that is not explicit."/>
+    <error file="src/Snapshot.h" line="34" id="publicAllocationError" severity="style" msg="Possible leak in public function. The pointer &apos;m_fp&apos; is not deallocated before it is allocated."/>
+    <error file="src/Snapshot.h" line="73" id="publicAllocationError" severity="style" msg="Possible leak in public function. The pointer &apos;m_fp&apos; is not deallocated before it is allocated."/>
+    <error file="src/Snapshot.h" line="121" id="publicAllocationError" severity="style" msg="Possible leak in public function. The pointer &apos;m_fp&apos; is not deallocated before it is allocated."/>
+    <error file="src/ArbTimer.cpp" line="3" id="uninitMemberVar" severity="style" msg="Member variable &apos;CArbTimer::m_pArbControl&apos; is not initialized in the constructor."/>
+    <error file="src/CheckMD5.cpp" line="89" id="invalidPrintfArgType_sint" severity="style" msg="%d in format string (no. 2) requires &apos;int&apos; but the argument type is &apos;unsigned int&apos;."/>
+    <error file="src/CheckMD5.cpp" line="164" id="invalidPrintfArgType_sint" severity="style" msg="%d in format string (no. 2) requires &apos;int&apos; but the argument type is &apos;unsigned int&apos;."/>
+    <error file="src/CheckMD5.cpp" line="172" id="invalidPrintfArgType_sint" severity="style" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned int&apos;."/>
+    <error file="src/CheckMD5.cpp" line="94" id="variableScope" severity="style" msg="The scope of the variable &apos;Buff&apos; can be reduced."/>
+    <error file="src/DCELog.cpp" line="58" id="unreadVariable" severity="style" msg="Variable &apos;iPid&apos; is assigned a value that is never used."/>
+    <error file="src/DevFlow.cpp" line="58" id="knownConditionTrueFalse" severity="style" msg="Condition &apos;offsetid&lt;0&apos; is always true"/>
+    <error file="src/DevFlow.cpp" line="86" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/DevHandler.cpp" line="24" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/DevHandler.cpp" line="95" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/GdbLog.cpp" line="58" id="syntaxError" severity="error" msg="syntax error"/>
+    <error file="src/LabelQueSet.cpp" line="67" id="redundantAssignment" severity="style" msg="Variable &apos;pDevFlow&apos; is reassigned a value before the old one has been used."/>
+    <error file="src/LabelQueSet.h" line="13" id="noCopyConstructor" severity="style" msg="class &apos;CLabelQueSet&apos; does not have a copy constructor which is recommended since the class contains a pointer to allocated memory."/>
+    <error file="src/LabelQueSet.cpp" line="113" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/MemHolder.cpp" line="43" id="variableScope" severity="style" msg="The scope of the variable &apos;pTmp&apos; can be reduced."/>
+    <error file="src/MemHolder.cpp" line="94" id="doubleFree" severity="error" msg="Memory pointed to by &apos;m_pBlock&apos; is freed twice."/>
+    <error file="src/MoniSender.cpp" line="75" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/PumpData.cpp" line="74" id="variableScope" severity="style" msg="The scope of the variable &apos;Buff&apos; can be reduced."/>
+    <error file="src/PumpData.cpp" line="78" id="variableScope" severity="style" msg="The scope of the variable &apos;HeaderNo&apos; can be reduced."/>
+    <error file="src/PumpData.cpp" line="79" id="variableScope" severity="style" msg="The scope of the variable &apos;buf&apos; can be reduced."/>
+    <error file="src/PumpData.cpp" line="135" id="unreadVariable" severity="style" msg="Variable &apos;newno&apos; is assigned a value that is never used."/>
+    <error file="src/PumpData.cpp" line="149" id="unreadVariable" severity="style" msg="Variable &apos;newno&apos; is assigned a value that is never used."/>
+    <error file="src/PumpData.cpp" line="164" id="unusedVariable" severity="style" msg="Unused variable: pHeader"/>
+    <error file="src/RouteLoad.cpp" line="97" id="variableScope" severity="style" msg="The scope of the variable &apos;nGroupId&apos; can be reduced."/>
+    <error file="src/RouteLoad.h" line="10" id="noCopyConstructor" severity="style" msg="class &apos;CRouteLoad&apos; does not have a copy constructor which is recommended since the class contains a pointer to allocated memory."/>
+    <error file="src/RouteLoad.cpp" line="165" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/RouteLoad.cpp" line="170" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/RouteLoad.cpp" line="190" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/RouteLoad.cpp" line="194" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/SendCache.cpp" line="60" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/SendCache.cpp" line="66" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/SendCache.cpp" line="95" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/SendCache.cpp" line="114" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/SendCache.cpp" line="128" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/SendCache.cpp" line="129" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/SendCache.cpp" line="140" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/SendCache.cpp" line="147" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/SendCache.cpp" line="17" id="uninitMemberVar" severity="style" msg="Member variable &apos;CSendCache::m_PreCur&apos; is not initialized in the constructor."/>
+    <error file="src/SendCache.h" line="26" id="noCopyConstructor" severity="style" msg="class &apos;CSendCache&apos; does not have a copy constructor which is recommended since the class contains a pointer to allocated memory."/>
+    <error file="src/StateControl.cpp" line="9" id="uninitMemberVar" severity="style" msg="Member variable &apos;CStateControl::m_pSwitchListenCtrl&apos; is not initialized in the constructor."/>
+    <error file="src/StateControl.cpp" line="9" id="uninitMemberVar" severity="style" msg="Member variable &apos;CStateControl::m_pDevListenCtrl&apos; is not initialized in the constructor."/>
+    <error file="src/StateControl.cpp" line="9" id="uninitMemberVar" severity="style" msg="Member variable &apos;CStateControl::m_RunState&apos; is not initialized in the constructor."/>
+    <error file="src/StateControl.cpp" line="9" id="uninitMemberVar" severity="style" msg="Member variable &apos;CStateControl::m_pInitState&apos; is not initialized in the constructor."/>
+    <error file="src/StateControl.cpp" line="9" id="uninitMemberVar" severity="style" msg="Member variable &apos;CStateControl::m_pSRState&apos; is not initialized in the constructor."/>
+    <error file="src/StateControl.cpp" line="9" id="uninitMemberVar" severity="style" msg="Member variable &apos;CStateControl::m_pDSState&apos; is not initialized in the constructor."/>
+    <error file="src/StateControl.cpp" line="9" id="uninitMemberVar" severity="style" msg="Member variable &apos;CStateControl::m_pSSState&apos; is not initialized in the constructor."/>
+    <error file="src/StateControl.cpp" line="9" id="uninitMemberVar" severity="style" msg="Member variable &apos;CStateControl::m_pDPState&apos; is not initialized in the constructor."/>
+    <error file="src/StateControl.cpp" line="9" id="uninitMemberVar" severity="style" msg="Member variable &apos;CStateControl::m_pSLState&apos; is not initialized in the constructor."/>
+    <error file="src/StateControl.cpp" line="9" id="uninitMemberVar" severity="style" msg="Member variable &apos;CStateControl::m_pRSState&apos; is not initialized in the constructor."/>
+    <error file="src/StoreCheck.cpp" line="1052" id="nullPointerRedundantCheck" severity="style" msg="Either the condition &apos;if(_filetmp)&apos; is redundant or there is possible null pointer dereference: _filetmp."/>
+    <error file="src/StoreCheck.cpp" line="1053" id="nullPointerRedundantCheck" severity="style" msg="Either the condition &apos;if(_filetmp)&apos; is redundant or there is possible null pointer dereference: _filetmp."/>
+    <error file="src/StoreCheck.cpp" line="684" id="redundantAssignment" severity="style" msg="Variable &apos;_filecon&apos; is reassigned a value before the old one has been used."/>
+    <error file="src/StoreCheck.cpp" line="1148" id="variableScope" severity="style" msg="The scope of the variable &apos;ch&apos; can be reduced."/>
+    <error file="src/StoreCheck.cpp" line="1081" id="unreadVariable" severity="style" msg="Variable &apos;iret&apos; is assigned a value that is never used."/>
+    <error file="src/StoreCheck.cpp" line="96" id="uninitMemberVar" severity="style" msg="Member variable &apos;COneStore::m_cszconfile&apos; is not initialized in the constructor."/>
+    <error file="src/StoreCheck.cpp" line="96" id="uninitMemberVar" severity="style" msg="Member variable &apos;COneStore::m_cszidfile&apos; is not initialized in the constructor."/>
+    <error file="src/StoreCheck.cpp" line="96" id="uninitMemberVar" severity="style" msg="Member variable &apos;COneStore::m_latestcorrectpos&apos; is not initialized in the constructor."/>
+    <error file="src/StoreCheck.cpp" line="96" id="uninitMemberVar" severity="style" msg="Member variable &apos;COneStore::m_pkgcount&apos; is not initialized in the constructor."/>
+    <error file="src/StoreCheck.cpp" line="185" id="uninitMemberVar" severity="style" msg="Member variable &apos;CStoreCheck::m_prefixName&apos; is not initialized in the constructor."/>
+    <error file="src/StoreCheck.cpp" line="185" id="uninitMemberVar" severity="style" msg="Member variable &apos;CStoreCheck::m_fileExistNum&apos; is not initialized in the constructor."/>
+    <error file="src/StoreCheck.cpp" line="185" id="noExplicitConstructor" severity="style" msg="Class &apos;CStoreCheck&apos; has a constructor with 1 argument that is not explicit."/>
+    <error file="src/StoreCheck.cpp" line="386" id="resourceLeak" severity="error" msg="Resource leak: _file"/>
+    <error file="src/StoreCheck.cpp" line="444" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/StoreCheck.cpp" line="870" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/StoreCheck.cpp" line="947" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/StoreTool.cpp" line="939" id="invalidScanfArgType_int" severity="style" msg="%x in format string (no. 1) requires &apos;unsigned int *&apos; but the argument type is &apos;signed int *&apos;."/>
+    <error file="src/StoreTool.cpp" line="537" id="redundantAssignment" severity="style" msg="Variable &apos;bret&apos; is reassigned a value before the old one has been used."/>
+    <error file="src/StoreTool.cpp" line="717" id="getsCalled" severity="style" msg="Obsolete function &apos;gets&apos; called. It is recommended to use &apos;fgets&apos; or &apos;gets_s&apos; instead."/>
+    <error file="src/StoreTool.cpp" line="828" id="getsCalled" severity="style" msg="Obsolete function &apos;gets&apos; called. It is recommended to use &apos;fgets&apos; or &apos;gets_s&apos; instead."/>
+    <error file="src/StoreTool.cpp" line="951" id="getsCalled" severity="style" msg="Obsolete function &apos;gets&apos; called. It is recommended to use &apos;fgets&apos; or &apos;gets_s&apos; instead."/>
+    <error file="src/StoreTool.cpp" line="47" id="uninitMemberVar" severity="style" msg="Member variable &apos;crunprocess::header&apos; is not initialized in the constructor."/>
+    <error file="src/StoreTool.cpp" line="141" id="uninitMemberVar" severity="style" msg="Member variable &apos;chandleoneflow::pPackage&apos; is not initialized in the constructor."/>
+    <error file="src/SubscribeHandler.cpp" line="13" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/SwitchCache.cpp" line="109" id="knownConditionTrueFalse" severity="style" msg="Condition &apos;m_pCacheTail&lt;m_pCacheHead&apos; is always true"/>
+    <error file="src/SwitchCache.cpp" line="41" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/SwitchCache.cpp" line="54" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/SwitchCache.cpp" line="55" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/SwitchCache.cpp" line="56" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/SwitchCache.cpp" line="62" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/SwitchCache.cpp" line="65" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/SwitchCache.cpp" line="70" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/SwitchCache.cpp" line="71" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/SwitchCache.cpp" line="72" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/SwitchCache.cpp" line="96" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/SwitchCache.cpp" line="113" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/SwitchCache.cpp" line="136" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/SwitchCache.cpp" line="145" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/SwitchCache.cpp" line="146" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/SwitchCache.cpp" line="148" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/SwitchCache.cpp" line="150" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/SwitchCache.cpp" line="214" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/SwitchCache.cpp" line="41" id="unreadVariable" severity="style" msg="Variable &apos;pEndNode&apos; is assigned a value that is never used."/>
+    <error file="src/SwitchCache.h" line="21" id="noCopyConstructor" severity="style" msg="class &apos;CSwitchCache&apos; does not have a copy constructor which is recommended since the class contains a pointer to allocated memory."/>
+    <error file="src/SwitchContext.cpp" line="276" id="invalidPrintfArgType_sint" severity="style" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned int&apos;."/>
+    <error file="src/SwitchContext.cpp" line="10" id="uninitMemberVar" severity="style" msg="Member variable &apos;CSwitchContext::m_pArbTimer&apos; is not initialized in the constructor."/>
+    <error file="src/SwitchContext.cpp" line="10" id="uninitMemberVar" severity="style" msg="Member variable &apos;CSwitchContext::m_SelfCfg&apos; is not initialized in the constructor."/>
+    <error file="src/SwitchContext.cpp" line="10" id="uninitMemberVar" severity="style" msg="Member variable &apos;CSwitchContext::m_Ackfd&apos; is not initialized in the constructor."/>
+    <error file="src/SwitchContext.cpp" line="10" id="uninitMemberVar" severity="style" msg="Member variable &apos;CSwitchContext::m_BusExitFile&apos; is not initialized in the constructor."/>
+    <error file="src/SwitchContext.cpp" line="10" id="uninitMemberVar" severity="style" msg="Member variable &apos;CSwitchContext::ClockStr&apos; is not initialized in the constructor."/>
+    <error file="src/SwitchContext.cpp" line="111" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/SwitchContext.cpp" line="122" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/SwitchHandler.cpp" line="17" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/SwitchRoute.cpp" line="81" id="variableScope" severity="style" msg="The scope of the variable &apos;pDevHandlerImage&apos; can be reduced."/>
+    <error file="src/SwitchRoute.cpp" line="174" id="variableScope" severity="style" msg="The scope of the variable &apos;pDevHandlerImage&apos; can be reduced."/>
+    <error file="src/SwitchRoute.cpp" line="524" id="variableScope" severity="style" msg="The scope of the variable &apos;pDevHandlerImage&apos; can be reduced."/>
+    <error file="src/SwitchRoute.cpp" line="753" id="variableScope" severity="style" msg="The scope of the variable &apos;pDevHandlerImage&apos; can be reduced."/>
+    <error file="src/SwitchRoute.cpp" line="769" id="variableScope" severity="style" msg="The scope of the variable &apos;pDevHandlerImage&apos; can be reduced."/>
+    <error file="src/SwitchRoute.cpp" line="770" id="unreadVariable" severity="style" msg="Variable &apos;SendFlag&apos; is assigned a value that is never used."/>
+    <error file="src/SwitchRoute.cpp" line="90" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/SwitchRoute.cpp" line="145" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/SwitchRoute.cpp" line="186" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/SwitchRoute.cpp" line="285" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/SwitchRoute.cpp" line="373" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/SwitchRoute.cpp" line="536" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/SwitchRoute.cpp" line="595" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/SwitchRoute.cpp" line="764" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/SwitchRoute.cpp" line="776" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/SwitchServer.cpp" line="546" id="variableScope" severity="style" msg="The scope of the variable &apos;Buff&apos; can be reduced."/>
+    <error file="src/SwitchServer.cpp" line="550" id="variableScope" severity="style" msg="The scope of the variable &apos;HeaderNo&apos; can be reduced."/>
+    <error file="src/SwitchServer.cpp" line="843" id="variableScope" severity="style" msg="The scope of the variable &apos;nLocalID&apos; can be reduced."/>
+    <error file="src/SwitchTimer.h" line="11" id="noExplicitConstructor" severity="style" msg="Class &apos;CSwitchTimer&apos; has a constructor with 1 argument that is not explicit."/>
+    <error file="src/SwitchServer.cpp" line="480" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/TDPState.cpp" line="521" id="knownConditionTrueFalse" severity="style" msg="Condition &apos;ret==0&apos; is always true"/>
+    <error file="src/TDPState.cpp" line="588" id="nullPointerRedundantCheck" severity="style" msg="Either the condition &apos;pData==NULL&apos; is redundant or there is possible null pointer dereference: pData."/>
+    <error file="src/TDPState.cpp" line="280" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/TDPState.cpp" line="439" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/TDPState.cpp" line="492" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/TDPState.cpp" line="745" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/TDPState.cpp" line="199" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/TDPState.cpp" line="216" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/TDPState.cpp" line="344" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/TDPState.cpp" line="355" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/TDPState.cpp" line="689" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/TDPState.cpp" line="794" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/TDSState.cpp" line="157" id="knownConditionTrueFalse" severity="style" msg="Condition &apos;ret==0&apos; is always true"/>
+    <error file="src/TDSState.cpp" line="133" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/TDSState.cpp" line="291" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/TDSState.cpp" line="321" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/TDSState.cpp" line="372" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/TDSState.cpp" line="225" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/TDSState.cpp" line="233" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/TDSState.cpp" line="366" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/TInitState.cpp" line="87" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/TSLState.cpp" line="44" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/TSLState.cpp" line="217" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/TSLState.cpp" line="32" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/TSLState.cpp" line="48" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/TSLState.cpp" line="115" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/TSRState.cpp" line="5" id="uninitMemberVar" severity="style" msg="Member variable &apos;CSRState::ConCount&apos; is not initialized in the constructor."/>
+    <error file="src/TSRState.cpp" line="53" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/TSSState.cpp" line="500" id="knownConditionTrueFalse" severity="style" msg="Condition &apos;ret==0&apos; is always true"/>
+    <error file="src/TSSState.cpp" line="271" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/TSSState.cpp" line="414" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/TSSState.cpp" line="469" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/TSSState.cpp" line="563" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/TSSState.cpp" line="634" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/TSSState.cpp" line="637" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/TSSState.cpp" line="684" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/TSSState.cpp" line="685" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/TSSState.cpp" line="661" id="variableScope" severity="style" msg="The scope of the variable &apos;pHead&apos; can be reduced."/>
+    <error file="src/TSSState.cpp" line="11" id="uninitMemberVar" severity="style" msg="Member variable &apos;CSSState::ConCount&apos; is not initialized in the constructor."/>
+    <error file="src/TSSState.cpp" line="203" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/TSSState.cpp" line="215" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/TSSState.cpp" line="336" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/TSSState.cpp" line="348" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/TSSState.cpp" line="626" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/TSSState.cpp" line="790" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/TState.cpp" line="241" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/TState.cpp" line="314" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/TState.cpp" line="733" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/TState.cpp" line="824" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/TState.cpp" line="711" id="variableScope" severity="style" msg="The scope of the variable &apos;pHeader&apos; can be reduced."/>
+    <error file="src/TState.cpp" line="837" id="variableScope" severity="style" msg="The scope of the variable &apos;pHead&apos; can be reduced."/>
+    <error file="src/TState.cpp" line="615" id="unreadVariable" severity="style" msg="Variable &apos;pGroup&apos; is assigned a value that is never used."/>
+    <error file="src/TState.cpp" line="13" id="uninitMemberVar" severity="style" msg="Member variable &apos;CState::m_pStateControl&apos; is not initialized in the constructor."/>
+    <error file="src/TState.h" line="40" id="noCopyConstructor" severity="style" msg="class &apos;CState&apos; does not have a copy constructor which is recommended since the class contains a pointer to allocated memory."/>
+    <error file="src/TState.cpp" line="45" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/TState.cpp" line="73" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/TState.cpp" line="206" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/TState.cpp" line="609" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/TState.cpp" line="747" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/TState.cpp" line="1016" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/TState.cpp" line="1084" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+    <error file="src/TState.cpp" line="157" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+    <error file="src/TestTimer.h" line="12" id="noExplicitConstructor" severity="style" msg="Class &apos;CTestTimer&apos; has a constructor with 1 argument that is not explicit."/>
+    <error file="src/gate/Adapter.h" line="41" id="noCopyConstructor" severity="style" msg="class &apos;CAdapter&apos; does not have a copy constructor which is recommended since the class contains a pointer to allocated memory."/>
+    <error file="src/gate/SWPackage.h" line="115" id="noExplicitConstructor" severity="style" msg="Class &apos;CSWPackage&apos; has a constructor with 1 argument that is not explicit."/>
+    <error file="src/gate/AdapterControl.cpp" line="24" id="uninitMemberVar" severity="style" msg="Member variable &apos;CAdapterControl::m_bSysLogin&apos; is not initialized in the constructor."/>
+    <error file="src/gate/AdapterControl.cpp" line="24" id="uninitMemberVar" severity="style" msg="Member variable &apos;CAdapterControl::m_pChannelTimer&apos; is not initialized in the constructor."/>
+    <error file="src/gate/AdapterControl.cpp" line="24" id="uninitMemberVar" severity="style" msg="Member variable &apos;CAdapterControl::m_nVirtual&apos; is not initialized in the constructor."/>
+    <error file="src/gate/AdapterTimer.cpp" line="27" id="uninitMemberVar" severity="style" msg="Member variable &apos;CAdapterTimer::m_nInterval&apos; is not initialized in the constructor."/>
+    <error file="src/gate/Transport.h" line="28" id="noCopyConstructor" severity="style" msg="class &apos;CTransport&apos; does not have a copy constructor which is recommended since the class contains a pointer to allocated memory."/>
+    <error file="src/restore/TRSState.cpp" line="312" id="knownConditionTrueFalse" severity="style" msg="Condition &apos;ret==0&apos; is always true"/>
+    <error file="src/restore/TRSState.cpp" line="510" id="redundantAssignment" severity="style" msg="Variable &apos;LogNo&apos; is reassigned a value before the old one has been used."/>
+    <error file="src/restore/TRSState.cpp" line="337" id="variableScope" severity="style" msg="The scope of the variable &apos;HaveHeader&apos; can be reduced."/>
+    <error file="src/xml/attribute.cpp" line="4" id="uninitMemberVar" severity="style" msg="Member variable &apos;CAttribute::m_next&apos; is not initialized in the constructor."/>
+    <error file="src/xml/xml.cpp" line="626" id="uselessAssignmentPtrArg" severity="style" msg="Assignment of function parameter has no effect outside the function. Did you forget dereferencing it?"/>
+    <error file="src/xml/xml.cpp" line="290" id="redundantAssignment" severity="style" msg="Variable &apos;pnode&apos; is reassigned a value before the old one has been used."/>
+    <error file="src/xml/xml.cpp" line="15" id="variableScope" severity="style" msg="The scope of the variable &apos;c&apos; can be reduced."/>
+    <error file="src/xml/xml.cpp" line="15" id="variableScope" severity="style" msg="The scope of the variable &apos;c1&apos; can be reduced."/>
+    <error file="src/xml/xml.cpp" line="16" id="variableScope" severity="style" msg="The scope of the variable &apos;tbuf&apos; can be reduced."/>
+    <error file="src/xml/xml.cpp" line="229" id="variableScope" severity="style" msg="The scope of the variable &apos;k&apos; can be reduced."/>
+    <error file="src/xml/xml.cpp" line="6" id="uninitMemberVar" severity="style" msg="Member variable &apos;CXML::m_buffer&apos; is not initialized in the constructor."/>
+    <error file="src/xml/xml.cpp" line="6" id="uninitMemberVar" severity="style" msg="Member variable &apos;CXML::m_buf&apos; is not initialized in the constructor."/>
+    <error file="src/xml/xml.cpp" line="6" id="uninitMemberVar" severity="style" msg="Member variable &apos;CXML::m_version&apos; is not initialized in the constructor."/>
+    <error file="src/xml/xml.h" line="42" id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;CXML::fromBuffer&apos;"/>
+    <error file="src/xml/xml.h" line="45" id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;CXML::toBuffer&apos;"/>
+    <error file="src/xml/xml.h" line="54" id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;CXML::addItem&apos;"/>
+    <error file="src/xml/xml.h" line="55" id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;CXML::addItem&apos;"/>
+    <error file="src/xml/xml.h" line="58" id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;CXML::editItem&apos;"/>
+    <error file="src/xml/xml.h" line="59" id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;CXML::editItem&apos;"/>
+    <error file="src/xml/xml.h" line="64" id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;CXML::deleteItem&apos;"/>
+    <error file="src/xml/xml.h" line="70" id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;CXML::insertItemAttribute&apos;"/>
+    <error file="src/xml/xml.h" line="73" id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;CXML::deleteItemAttribute&apos;"/>
+    <error file="src/xml/xml.h" line="75" id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;CXML::setAttribute&apos;"/>
+    <error file="src/xml/xml.h" line="76" id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;CXML::getAttribute&apos;"/>
+    <error file="src/xml/xml.h" line="82" id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;CXML::getParentItem&apos;"/>
+    <error file="src/xml/xml.h" line="83" id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;CXML::getCurrentNode&apos;"/>
+    <error file="src/xml/xml.h" line="84" id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;CXML::setCurrentNode&apos;"/>
+    <error file="src/xml/xml.h" line="86" id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;CXML::getNodeName&apos;"/>
+    <error file="src/xml/xml.h" line="87" id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;CXML::getNodeValue&apos;"/>
+    <error file="src/xml/xml.h" line="12" id="noExplicitConstructor" severity="style" msg="Class &apos;CXML&apos; has a constructor with 1 argument that is not explicit."/>
+    <error file="src/xml/xml.cpp" line="96" id="sprintfOverlappingData" severity="error" msg="Undefined behavior: Variable &apos;buffer&apos; is used as parameter and destination in s[n]printf()."/>
+    <error file="src/xml/xml.cpp" line="108" id="sprintfOverlappingData" severity="error" msg="Undefined behavior: Variable &apos;buffer&apos; is used as parameter and destination in s[n]printf()."/>
+    <error file="src/xml/xml.cpp" line="117" id="sprintfOverlappingData" severity="error" msg="Undefined behavior: Variable &apos;buffer&apos; is used as parameter and destination in s[n]printf()."/>
+    <error file="src/xml/xml.cpp" line="122" id="sprintfOverlappingData" severity="error" msg="Undefined behavior: Variable &apos;buffer&apos; is used as parameter and destination in s[n]printf()."/>
+    <error file="src/xml/xml.cpp" line="127" id="sprintfOverlappingData" severity="error" msg="Undefined behavior: Variable &apos;buffer&apos; is used as parameter and destination in s[n]printf()."/>
+    <error file="src/xml/xml.cpp" line="132" id="sprintfOverlappingData" severity="error" msg="Undefined behavior: Variable &apos;buffer&apos; is used as parameter and destination in s[n]printf()."/>
+    <error file="src/xml/xmlanalysis.cpp" line="329" id="incorrectLogicOperator" severity="style" msg="Logical conjunction always evaluates to false: EXPR == 13 &amp;&amp; EXPR == 10."/>
+    <error file="src/gate/SWPackage.cpp" line="44" id="unusedFunction" severity="style" msg="The function &apos;AddValField&apos; is never used."/>
+    <error file="src/DevHandler.cpp" line="345" id="unusedFunction" severity="style" msg="The function &apos;AfterHandleInput&apos; is never used."/>
+    <error file="src/DevHandler.cpp" line="255" id="unusedFunction" severity="style" msg="The function &apos;CheckWrite&apos; is never used."/>
+    <error file="src/gate/SWPackage.cpp" line="80" id="unusedFunction" severity="style" msg="The function &apos;Clone&apos; is never used."/>
+    <error file="src/LabelQueSet.cpp" line="118" id="unusedFunction" severity="style" msg="The function &apos;GetDefaultQue&apos; is never used."/>
+    <error file="src/gate/SWPackage.cpp" line="132" id="unusedFunction" severity="style" msg="The function &apos;GetHookID&apos; is never used."/>
+    <error file="src/SubscribeHandler.cpp" line="102" id="unusedFunction" severity="style" msg="The function &apos;GetLabelQueSet&apos; is never used."/>
+    <error file="src/gate/SWPackage.cpp" line="200" id="unusedFunction" severity="style" msg="The function &apos;GetSequenceNo&apos; is never used."/>
+    <error file="src/gate/Adapter.cpp" line="145" id="unusedFunction" severity="style" msg="The function &apos;GetUsableHandler&apos; is never used."/>
+    <error file="src/SwitchReactor.cpp" line="64" id="unusedFunction" severity="style" msg="The function &apos;InitInstance&apos; is never used."/>
+    <error file="src/DevFlowReader.cpp" line="159" id="unusedFunction" severity="style" msg="The function &apos;OnAppend&apos; is never used."/>
+    <error file="src/DevListenCtrl.cpp" line="14" id="unusedFunction" severity="style" msg="The function &apos;OnConnected&apos; is never used."/>
+    <error file="src/gate/GateTransport.cpp" line="114" id="unusedFunction" severity="style" msg="The function &apos;OnRcvGroupState&apos; is never used."/>
+    <error file="src/gate/Adapter.cpp" line="522" id="unusedFunction" severity="style" msg="The function &apos;OnRcvPrimaryDev&apos; is never used."/>
+    <error file="src/gate/GateTransport.cpp" line="106" id="unusedFunction" severity="style" msg="The function &apos;OnRcvReconvertOver&apos; is never used."/>
+    <error file="src/ArbTimer.cpp" line="12" id="unusedFunction" severity="style" msg="The function &apos;OnTimer&apos; is never used."/>
+    <error file="src/LabelQueSet.cpp" line="76" id="unusedFunction" severity="style" msg="The function &apos;RemoveLabelQue&apos; is never used."/>
+    <error file="src/TState.cpp" line="374" id="unusedFunction" severity="style" msg="The function &apos;RemoveSwitchServer&apos; is never used."/>
+    <error file="src/Balancer.cpp" line="16" id="unusedFunction" severity="style" msg="The function &apos;Reset&apos; is never used."/>
+    <error file="src/SubscribeHandler.cpp" line="23" id="unusedFunction" severity="style" msg="The function &apos;SeparateReaderSet&apos; is never used."/>
+    <error file="src/gate/SWPackage.cpp" line="147" id="unusedFunction" severity="style" msg="The function &apos;SetChain&apos; is never used."/>
+    <error file="src/gate/SWPackage.cpp" line="128" id="unusedFunction" severity="style" msg="The function &apos;SetHookID&apos; is never used."/>
+    <error file="src/gate/SWPackage.cpp" line="152" id="unusedFunction" severity="style" msg="The function &apos;SetLabel&apos; is never used."/>
+    <error file="src/gate/Transport.cpp" line="59" id="unusedFunction" severity="style" msg="The function &apos;SetWorkDate&apos; is never used."/>
+    <error file="src/gate/Transport.cpp" line="107" id="unusedFunction" severity="style" msg="The function &apos;Wait&apos; is never used."/>
+    <error file="src/gate/Transport.cpp" line="147" id="unusedFunction" severity="style" msg="The function &apos;WaitRunning&apos; is never used."/>
+    <error file="src/DCELog.cpp" line="80" id="unusedFunction" severity="style" msg="The function &apos;WriteDebugInfo&apos; is never used."/>
+    <error file="src/xml/xml.cpp" line="464" id="unusedFunction" severity="style" msg="The function &apos;addItem&apos; is never used."/>
+    <error file="src/xml/xml.cpp" line="564" id="unusedFunction" severity="style" msg="The function &apos;deleteItem&apos; is never used."/>
+    <error file="src/xml/xml.cpp" line="639" id="unusedFunction" severity="style" msg="The function &apos;deleteItemAttribute&apos; is never used."/>
+    <error file="src/xml/xml.cpp" line="538" id="unusedFunction" severity="style" msg="The function &apos;editItem&apos; is never used."/>
+    <error file="src/xml/xml.cpp" line="59" id="unusedFunction" severity="style" msg="The function &apos;fromBuffer&apos; is never used."/>
+    <error file="src/xml/xml.cpp" line="343" id="unusedFunction" severity="style" msg="The function &apos;getAttribute&apos; is never used."/>
+    <error file="src/xml/xml.cpp" line="658" id="unusedFunction" severity="style" msg="The function &apos;getCurrentNode&apos; is never used."/>
+    <error file="src/xml/xml.cpp" line="280" id="unusedFunction" severity="style" msg="The function &apos;getFirstItem&apos; is never used."/>
+    <error file="src/xml/attribute.cpp" line="24" id="unusedFunction" severity="style" msg="The function &apos;getNamedItem&apos; is never used."/>
+    <error file="src/xml/xml.cpp" line="670" id="unusedFunction" severity="style" msg="The function &apos;getNodeName&apos; is never used."/>
+    <error file="src/xml/xml.cpp" line="674" id="unusedFunction" severity="style" msg="The function &apos;getNodeValue&apos; is never used."/>
+    <error file="src/xml/xml.cpp" line="644" id="unusedFunction" severity="style" msg="The function &apos;getParentItem&apos; is never used."/>
+    <error file="src/xml/node.cpp" line="69" id="unusedFunction" severity="style" msg="The function &apos;getParentNode&apos; is never used."/>
+    <error file="src/xml/xml.cpp" line="633" id="unusedFunction" severity="style" msg="The function &apos;insertItemAttribute&apos; is never used."/>
+    <error file="src/xml/xml.cpp" line="373" id="unusedFunction" severity="style" msg="The function &apos;setAttribute&apos; is never used."/>
+    <error file="src/xml/xml.cpp" line="663" id="unusedFunction" severity="style" msg="The function &apos;setCurrentNode&apos; is never used."/>
+    <error file="src/xml/xml.cpp" line="67" id="unusedFunction" severity="style" msg="The function &apos;toBuffer&apos; is never used."/>
+    <error id="missingInclude" severity="style" msg="Cppcheck cannot find all the include files (use --check-config for details)"/>
+</results>
